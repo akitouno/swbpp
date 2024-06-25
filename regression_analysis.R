@@ -4,7 +4,7 @@ library(mice)
 library(car)
 library(nnet)
 
-### Multiple imputation
+### Multivariate imputation by chained equations 
 d1 <- read.csv('data1.csv')
 
 # data type & standardization
